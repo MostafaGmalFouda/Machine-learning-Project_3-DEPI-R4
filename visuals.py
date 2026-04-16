@@ -83,6 +83,7 @@ def cluster_results(reduced_data, preds, centers, pca_samples):
 	ax.set_title("Cluster Learning on PCA-Reduced Data - Centroids Marked by Number\nTransformed Sample Data Marked by Black Cross");
 
 
+
 def biplot(good_data, reduced_data, pca):
     '''
     Produce a biplot that shows a scatterplot of the reduced
